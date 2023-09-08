@@ -1,0 +1,24 @@
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174690578-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-174690578-1');
+</script>
+
+<p>
+    <a href="{% url 'journal:index' %}">Knowledge Journal</a> -
+    <a href="{% url 'journal:topics' %}">Topics</a> -
+    {% if user.is_authenticated %}
+        Hello, {{ user.username }}.
+        <a href="{% url 'users:logout' %}">Log out</a>
+    {% else %}
+        <a href="{% url 'users:register' %}">Register</a> -
+        <a href="{% url 'users:login' %}">Log in</a>
+    {% endif %}
+</p>
+
+{% block content %}{% endblock content %}

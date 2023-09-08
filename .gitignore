@@ -1,0 +1,6 @@
+kj_env/
+cloud_sql_proxy_x64.exe
+static/
+db.sqlite3
+__pycache__
+archive/
