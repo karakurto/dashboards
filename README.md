@@ -3,7 +3,7 @@ Plotly and Django on GCP App Engine to illustrate cantonal COVID-19 statistics i
 
 I used Plotly library to create a graph of confirmed COVID-19 cases and deaths per canton in Switzerland after I pull data from an official source via its provided API. Afterwards, I simply added the link for this application in one of my public entries on my Django based web blog.  
 
-Link to dashboard: https://dashboards.zeytinlik.ch/corona_stats_ch/
+Link to dashboard: https://dashboards.zeytinlik.ch/covid/
 
 Output is something like below with a link to the official data source embedded in each canton label:  
   
