@@ -7,7 +7,7 @@ Link to dashboard: https://dashboards.zeytinlik.ch/corona_stats_ch/
 
 Output is something like below with a link to the official data source embedded in each canton label:  
   
-![alt text](https://github.com/karakurto/CoronaStats_on_AppEngine/blob/master/Capture1.PNG?raw=true)
+![alt text](https://github.com/karakurto/dashboards/blob/main/Capture1.PNG?raw=true)
 
 This graph uses 1 day old data because cantons upload their data at 18.00 during workdays. This also means that there will be fewer cantons in the graph if you generate a graph on Sundays or Mondays before 18.00.
 
@@ -22,4 +22,4 @@ Link to dashboard: https://dashboards.zeytinlik.ch/us-air-passengers/
 
 Output is something like below with multiple traces to compare throughput across years. Idea of the dashboard is to give us an idea how air travel is recovering from the pandemic. This dashboard is interactive meaning you can select/unselect individual traces to compare certain years. When you hover over the traces, you can see the volume on specific days.
   
-![alt text](https://github.com/karakurto/CoronaStats_on_AppEngine/blob/master/Capture2.PNG?raw=true)
+![alt text](https://github.com/karakurto/dashboards/blob/main/Capture2.PNG?raw=true)
